@@ -1,0 +1,73 @@
+1623546708177	geckodriver	INFO	Listening on 127.0.0.1:1279
+1623546711006	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofileqABX2N"
+1623546726671	geckodriver	INFO	Listening on 127.0.0.1:1343
+1623546729716	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofile2TJfj4"
+1623546730083	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623546732265	Marionette	INFO	Listening on port 1355
+1623546732381	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+[Child 11296, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B0009,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1623546879869	Marionette	INFO	Stopped listening on port 1355
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623546948428	geckodriver	INFO	Listening on 127.0.0.1:4179
+1623546951495	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofilesPqd1J"
+1623546951900	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623546954113	Marionette	INFO	Listening on port 4187
+1623546954179	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623546970726	Marionette	INFO	Stopped listening on port 4187
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623547188593	geckodriver	INFO	Listening on 127.0.0.1:12529
+1623547191656	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofileeu69BJ"
+1623547192047	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623547194330	Marionette	INFO	Listening on port 1061
+1623547194824	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623547270757	Marionette	INFO	Stopped listening on port 1061
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623547272931	geckodriver	INFO	Listening on 127.0.0.1:4646
+1623547275972	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofile3lfnJt"
+1623547276489	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623547279332	Marionette	INFO	Listening on port 10921
+1623547279646	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623547288150	Marionette	INFO	Stopped listening on port 10921
+1623547558389	geckodriver	INFO	Listening on 127.0.0.1:13042
+1623547561438	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofile31555r"
+1623547561800	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623547564064	Marionette	INFO	Listening on port 1055
+1623547564106	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1623547575548	Marionette	INFO	Stopped listening on port 1055
+1623547783114	geckodriver	INFO	Listening on 127.0.0.1:6592
+1623547786185	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofileFNSCCu"
+1623547787045	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623547790450	Marionette	INFO	Listening on port 13405
+1623547790499	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1623547956257	Marionette	INFO	Stopped listening on port 13405
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

@@ -1,0 +1,3 @@
+import self_learn_python.my_package1.my_new_module1
+
+self_learn_python.my_package1.my_new_module1.info_print1()

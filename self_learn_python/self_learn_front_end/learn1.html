@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        // window.onload = function(){
+        //     let oDivElement = document.getElementById('div1')
+        //     console.log(oDivElement, oDivElement.id, oDivElement.innerHTML, oDivElement.textContent, oDivElement.innerText)
+        // };
+
+        $(document).ready(function () {
+            let $div = $('#div1');
+            console.log($div);
+            alert($div);
+        });
+
+        $(function(){
+            let $div = $('#div1');
+            console.log($div)
+            let $p = $('p');
+            console.log($p.length);
+            $p.css({'color': 'red'});
+            let $input = $('input[type=\'text\']');
+            console.log($input.length);
+            $input.css({'color': 'green', 'font-size': 'larger'});
+        })
+
+        $(function(){
+            let $divs = $('div')
+            $div = $divs.has('.pname')
+            $div.css({'background': 'aqua'});
+            $divs.eq(2).css({'background': 'red'})
+        });
+
+        $(function(){
+            let $div = $('.pname').parent();
+            $div.prev().css({'color': 'aqua', 'font-size': '30px'})
+            $div.prevAll().css({'text-indent': '50px'})
+            $div.next().css({'color': 'green'})
+            $div.nextAll().css({'text-indent': '100px'})
+            $div.siblings().css({'text-decoration': 'underline'})
+            $div.parent().css({'background': 'gray'})
+            $div.children().css({'color': 'brown'})
+            $div.find('#innerspan').css({'color': 'green'})
+            console.log($div.html());
+            // $div.html('<a href="https://www.baidu.com">Baidu</a>')
+            $div.append('<a href="https://www.baidu.com">Baidu</a>')
+            let $div_css = $div.css('font-size')
+            console.log($div_css)
+            // console.log($div.prop());
+            $div.prop({'class': 'div2'});
+            console.log($div.prop('value'));
+            $div.val('new_div_value')
+            $input1 = $('#input1');
+            console.log($input1.prop('value'));
+            console.log($input1.val());
+            $input1.val('456')
+
+            // $lis = $('ul>li');
+            // $lis.click(function(){
+            //     // this.style.color = 'red';
+            //     $(this).css({'color': 'red'});
+            //     console.log($(this).index());
+            // });
+            let $ul = $('ul');
+            $ul.delegate('li', 'click', function(){
+                $(this).css({'color': 'aqua'});
+            });
+
+            $text1 = $('#text1');
+            $button1 = $('#button1');
+            $button1.click(function(){
+                console.log($text1.val());
+                return false;
+            })
+            $text1.focus(function(){
+                $(this).css({'background': 'pink'});
+            })
+            $text1.blur(function(){
+                $(this).css({'background': ''});
+            })
+
+            $div3 = $('#div3');
+            $div3.mouseover(function(){
+                $(this).css({'background': 'gray'})
+            })
+            $div3.mouseout(function(){
+                $(this).css({'background': ''})
+            })
+            $div3.click(function(){
+                console.log($(this).prop('id'));
+            });
+        })
+    </script>
+</head>
+
+<body>
+    <div>
+        <h1>Haha!</h1>
+        <div id="div1">This is a div.</div>
+        <p>This is a p.</p>
+        <input type="button" value="haahahah">
+        <input type="text" value="hahahah">
+        <div value='div_value'>
+            <p class="pname">P haha</p>
+            <p>
+                <p>
+                    <span id="innerspan">
+                        hahaa
+                    </span>
+                </p>
+            </p>
+            <span>haha</span>
+            <span>good</span>
+            <span>boy</span>
+        </div>
+        <p>hahaha</p>
+        <div>
+            <input type="button" value="hahaha">
+        </div>
+        <input type="text" value="123" id="input1">
+    </div>
+    <ul>
+        <li>li1</li>
+        <li>li2</li>
+        <li>li3</li>
+    </ul>
+    <hr>
+    <div id="div3">
+        <input type="text" name="text1" id="text1">
+        <input type="button" value="button1" id="button1">
+    </div>
+</body>

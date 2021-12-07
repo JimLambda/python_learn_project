@@ -1,0 +1,78 @@
+1624711695967	geckodriver	INFO	Listening on 127.0.0.1:5933
+1624711699030	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofileeRzmmp"
+1624711699770	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1624711702467	Marionette	INFO	Listening on port 5943
+1624711702724	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624711745065	Marionette	INFO	Stopped listening on port 5943
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1624892459158	geckodriver	INFO	Listening on 127.0.0.1:9237
+1624892462186	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofile22KYw7"
+1624892462939	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1624892465364	Marionette	INFO	Listening on port 9249
+1624892465862	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624892487362	geckodriver	INFO	Listening on 127.0.0.1:9341
+1624892490404	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofilecnZYe1"
+1624892490818	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1624892492924	Marionette	INFO	Listening on port 9350
+1624892493048	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624892583175	Marionette	INFO	Stopped listening on port 9350
+1624894817254	geckodriver	INFO	Listening on 127.0.0.1:9204
+1624894819894	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofile6yJ0L8"
+1624894842698	geckodriver	INFO	Listening on 127.0.0.1:3482
+1624894845781	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofileBc9zFC"
+1624894846213	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofileBc9zFC\\search.json.mozlz4", (void 0)))
+1624894849045	Marionette	INFO	Listening on port 4414
+1624894849488	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624894897347	Marionette	INFO	Stopped listening on port 4411624894899077	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofileX0yWH0"
+1624894899447	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofileX0yWH0\\search.json.mozlz4", (void 0)))
+1624894901549	Marionette	INFO	Listening on port 11732
+1624894901721	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624894965459	Marionette	INFO	Stopped listening on port 11731624894967005	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofilep8DhT7"
+1624894967360	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofilep8DhT7\\search.json.mozlz4", (void 0)))
+1624894969372	Marionette	INFO	Listening on port 12929
+1624894969681	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://pages.anjukestatic.com/usersite/site/js/prototype-1.6.0.3/prototype_gather_packed_1.js, line 1: TypeError: l.dispatchEvent is not a function
+JavaScript error: https://pages.anjukestatic.com/fe/test/hbg_web_hbghousepc/dist/ajk/client/app.b89d8af.js, line 1: TypeError: t is null
+JavaScript error: https://user.anjuke.com/ajax/checkMenu/?callback=__jp0, line 1: SyntaxError: expected expression, got '<'
+1624895299797	Marionette	INFO	Stopped listening on port 1291624895301248	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofileIXIIt7"
+1624895301611	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofileIXIIt7\\search.json.mozlz4", (void 0)))
+1624895303778	Marionette	INFO	Listening on port 2448
+1624895303903	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624895574384	geckodriver	INFO	Listening on 127.0.0.1:2068
+1624895577419	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofileGov1zx"
+1624895578374	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofileGov1zx\\search.json.mozlz4", (void 0)))
+1624895582032	Marionette	INFO	Listening on port 2076
+1624895582212	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624895645443	Marionette	INFO	Stopped listening on port 2076
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1624895662908	geckodriver	INFO	Listening on 127.0.0.1:2305
+1624895665943	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofilexR6Jup"
+1624895666384	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofilexR6Jup\\search.json.mozlz4", (void 0)))
+1624895669399	Marionette	INFO	Listening on port 2315
+1624895669621	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1624899135965	Marionette	INFO	Stopped listening on port 2315

@@ -1,0 +1,45 @@
+1624291009108	geckodriver	INFO	Listening on 127.0.0.1:9606
+1624291012158	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofilekmEZd6"
+1624291012955	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1624291015439	Marionette	INFO	Listening on port 9614
+1624291015854	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624291046592	Marionette	INFO	Stopped listening on port 9614
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1624291050419	geckodriver	INFO	Listening on 127.0.0.1:9755
+1624291053484	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofileENZufC"
+1624291053862	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1624291056297	Marionette	INFO	Listening on port 9764
+1624291056653	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624291191846	Marionette	INFO	Stopped listening on port 97641624291193603	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofilepF9NVb"
+1624291194011	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1624291196092	Marionette	INFO	Listening on port 12852
+1624291196269	Marionette	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: TypeError: browsingContextFn().currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:327:29
+
+1624291290856	Marionette	INFO	Stopped listening on port 12852
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1624291294368	geckodriver	INFO	Listening on 127.0.0.1:12363
+1624291297409	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Lambd\\AppData\\Local\\Temp\\rust_mozprofileSv8Rf9"
+1624291297795	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1624291300093	Marionette	INFO	Listening on port 12373
+1624291300570	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: https://pages.anjukestatic.com/xinfang/js/prototype-1.6.0.3/prototype_packed.js, line 1: TypeError: l.dispatchEvent is not a function
+JavaScript error: https://pages.anjukestatic.com/xinfang/js/prototype-1.6.0.3/prototype_packed.js, line 1: TypeError: l.dispatchEvent is not a function
+1624293348734	Marionette	INFO	Stopped listening on port 12373
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
